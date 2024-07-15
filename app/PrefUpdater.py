@@ -22,7 +22,7 @@ class InputPrefData:
     Info about user's conversation with place object performance
     """
 
-    def __init__(self, person_id: int, rate: float, tags: Tags):
+    def __init__(self, person_id: int, tags: Tags, rate: float):
         self.person_id = person_id
         self.tags = tags
         self.rate = rate
